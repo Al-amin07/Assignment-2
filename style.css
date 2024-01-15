@@ -127,6 +127,103 @@ label{
 
 }
 
+/* Tours Section 
+*****************/
+section{
+    margin-top: 100px;
+}
+.tours{
+    display: flex;
+   
+    gap: 40px;
+}
+.tours > div{
+    flex: 1;
+}
+.tours-img img {
+    width: 100%;
+}
+.tours-text-desc{
+    margin: 24px 0;
+}
+.tours-text ul {
+    
+    margin-left: 20px;
+    margin-bottom: 24px;
+}
+.read{
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    padding: 15px 35px;
+    background-color: #FF5400;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 32px;
+}
+.read:hover{
+    background-color: #ff0000;
+}
+/* News Letter Section
+***********************/
+.news{
+    display: flex;
+    gap: 20px;
+}
+.news-text{
+    padding: 40px;
+    border: 1px solid #FF5400;
+    border-radius: 10px;
+}
+.news .news-text{
+    width: 40%;
+    
+}
+.news .news-img{
+    width: 60%;
+  
+    position: relative;
+}
+.news-img img{
+    width: 100%;
+}
+
+.news-text input,button{
+    display: block;
+    padding: 15px 30px;
+    width: 100%;
+    
+}
+input{
+    background-color:  rgba(19, 19, 24, 0.05);
+    border: 0;
+    border-radius: 10px;
+    margin-bottom: 16px;
+}
+.news-text-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #131318;
+    margin-bottom: 16px;
+}
+.trip{
+    transform: rotate(-21deg);
+    right: 10px;
+    bottom: 60px;
+    position: absolute;
+    background-color: #FF5400;
+    color: white;
+    display: inline-block;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+.trip p{
+    font-size: 24px;
+}
+.trip h4{
+    font-size: 32px;
+    font-weight: bold;
+}
 @media screen and (max-width:600px) {
     .width{
         width: 90%;
@@ -153,6 +250,7 @@ label{
     }
     .banner-input{
         flex-direction: column;
+        gap: 32px;
         position: relative;
     }
     nav a{
@@ -179,9 +277,26 @@ label{
      
     } 
     .one{
-        top: 95px;
+        top: 110px;
     }
     .two{
-        top: 155px;
+        top: 195px;
     }
+    section{
+        margin-top: 40px;
+    }
+    .tours{
+        flex-direction: column;
+    }
+    .news{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .news .news-text, .news .news-img{
+        width: 100%;
+    }
+    .news-img{
+        /* height: 300px; */
+    }
+ 
 }
