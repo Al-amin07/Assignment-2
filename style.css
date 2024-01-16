@@ -644,4 +644,7 @@ footer li i{
         
         left: calc(100% - 85%);
      }
+     .explore{
+        flex-direction: column;
+     }
 }
