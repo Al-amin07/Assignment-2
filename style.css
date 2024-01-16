@@ -82,11 +82,10 @@ nav a{
     gap: 28px; 
     border-radius: 10px;
 }
-.custom{
-    background-position: right 20px center;
-}
+
 .banner-input select{
     padding: 10px 0 10px 10px;
+    color: rgba(19, 19, 24, 0.50);
     border: 0;
     border-radius: 10px;
     width: 160px;
@@ -125,10 +124,12 @@ label{
 .btn{
     color: white;
     background-color: #FF5400;
-    padding: 10px 35px;
+    padding: 12px 35px;
     border: 0;
     border-radius: 10px;
     font-weight: 700;
+    width: 160px;
+  
 }
 .btn i{
     margin-right: 8px;
@@ -521,7 +522,7 @@ footer li i{
     nav a{
         display: none;
     }
-    .banner-input input, .banner-input select{
+    .banner-input input, .banner-input select , .btn{
         width: 100%;
     }
     .banner-title{
