@@ -363,7 +363,7 @@ section{
  }
  #from-top{
     position: relative;
-    bottom: 10px;
+    bottom: 0px;
  }
  .deal-text h2{
     font-size: 24px ;
@@ -649,6 +649,7 @@ footer li i{
     .deals-icons{
         flex-wrap: wrap;
     }
+   
     .deals > p{
         padding: 0 10px;
     }
