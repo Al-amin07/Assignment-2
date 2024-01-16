@@ -82,12 +82,24 @@ nav a{
     gap: 28px; 
     border-radius: 10px;
 }
-.banner-input input{
-    padding: 16px;
+.custom{
+    background-position: right 20px center;
+}
+.banner-input select{
+    padding: 10px 0 10px 10px;
     border: 0;
     border-radius: 10px;
     width: 160px;
     background-color: aliceblue;
+    font-size: 18px;
+}
+.banner-input input{
+    padding: 10px ;
+    border: 0;
+    border-radius: 10px;
+    width: 160px;
+    background-color: aliceblue;
+    font-size: 18px;
 }
 .banner-title{
     font-size: 4rem;
@@ -103,14 +115,7 @@ nav a{
     padding: 0 50px;
     line-height: 26px;
 }
-label i{
-    /* font-size: 20px; */
-    position: absolute;
-    right: 15px;
-    top: 15px;
-    /* right: 40px; */
-    color: rgb(0, 0, 0);
-} 
+
 
 label{
     display: block;
@@ -516,7 +521,7 @@ footer li i{
     nav a{
         display: none;
     }
-    .banner-input input{
+    .banner-input input, .banner-input select{
         width: 100%;
     }
     .banner-title{
@@ -529,13 +534,7 @@ footer li i{
         padding: 0 10px;
        
     }
-    label i{
-        /* font-size: 20px; */
-       
-        right: 20px;
-       
-     
-    } 
+    
   
     section{
         margin-top: 40px;
