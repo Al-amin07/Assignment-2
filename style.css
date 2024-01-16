@@ -390,12 +390,14 @@ section{
     left: calc(100% - 75%);
  }
 
- .get-img img{
-    height: 100%;
-    width: 100%;
- }
+ 
  .get-text-desc{
     margin: 24px 0;
+ }
+ .if{
+    border-radius: 16px;
+    height: 100%;
+    width: 100%;
  }
 
 /* News Letter Section
@@ -563,6 +565,9 @@ footer li i{
     .destination{
         grid-template-columns: 1fr;
         grid-template-rows: repeat(7,1fr);
+    }
+    .if{
+        height: 300px;
     }
     #img1,#img2,#img3,#img4,#img5,#img6,#img7{
         grid-column: 1/-1;
