@@ -305,6 +305,11 @@ section{
     height: 24px;
     width: 24px;
  }
+ .deal-icon{
+    display: flex;
+     align-items: center; 
+     gap: 10px;
+ }
  .deals > p{
     margin-top: 24px;
     margin-bottom: 48px;
@@ -345,6 +350,7 @@ section{
     justify-content: space-between;
     margin-bottom: 20px;
  }
+
  .text1{
     position: absolute;
     right: 50px;
@@ -354,6 +360,10 @@ section{
     position: absolute;
      left: 50px;
     top: calc(100% - 90%);
+ }
+ #from-top{
+    position: relative;
+    bottom: 10px;
  }
  .deal-text h2{
     font-size: 24px ;
@@ -630,7 +640,7 @@ footer li i{
     .text1,.text2{
         left: 20px;
         padding: 10px 20px;
-        top: 100px;
+        top: 110px;
      }
      
     footer{
